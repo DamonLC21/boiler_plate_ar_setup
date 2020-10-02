@@ -1,4 +1,37 @@
-# Mod 1 ActiveRecord Starter Repo
+## Welcome
+
+Welcome to the Jukebox CLI App. This app allows you to select you favorite song from a list of options, and save that song to be viewed later. You may select and save multiple songs.
+
+## Installation
+
+Once you are in this directory, run the following command in the terminal:
+
+$ bundle install
+
+this installs the gems the app needs to function.
+
+## Usage
+
+Enter the following command to run the app:
+
+$ ruby runner.rb
+
+Follow the prompts in the terminal. Press Enter to input your responses.
+
+
+
+## About this App
+
+This app was written in ruby. It uses ActiveRecord to create, write to, and access a sqlite3 database. This app was the module 1 project at Flatiron School. It was created by Eric Christine and Marcos Lipic
+
+
+
+
+
+
+
+
+<!-- # Mod 1 ActiveRecord Starter Repo
 
 In `config/database.yml`, you can change the name of the database from `db/cats.sqlite3` to whatever reflects your project. For example: `db/notes.sqlite3`. Doesn't really matter what you call the db. 
 
@@ -68,4 +101,4 @@ end
 1. Create seeds in db/seeds.rb and run `rake db:seed`
 1. Now can put a pry in environment.rb to run <ModelName>.all and see your seeds.
 
-Make sure your models inherit from `ActiveRecord::Base`
+Make sure your models inherit from `ActiveRecord::Base` -->
